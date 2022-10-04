@@ -7,9 +7,9 @@ const message = {
 };
 
 //Act
-const countSuccessFunction = reverseString("Victoria");
+const reverseFunc = reverseString("Victoria");
 
 //Assert
 test(message.success, () => {
-  expect(countSuccessFunction).not.toMatch("Victoria");
+  expect(reverseFunc).not.toMatch("Victoria");
 });
