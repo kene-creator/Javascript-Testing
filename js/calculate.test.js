@@ -15,16 +15,16 @@ const multiplicationOfNumbers = calculate.multiply(10, 5);
 const subtractionOfNumbers = calculate.subtract(10, 5);
 
 describe("calculate", () => {
-  test(message.success, () => {
+  test(message.add, () => {
     expect(sumOfNumbers).toBe(15);
   });
-  test(message.success, () => {
+  test(message.divide, () => {
     expect(divisionOfNumbers).toBe(2);
   });
-  test(message.success, () => {
+  test(message.multiply, () => {
     expect(multiplicationOfNumbers).toBe(50);
   });
-  test(message.success, () => {
+  test(message.subtract, () => {
     expect(subtractionOfNumbers).toBe(5);
   });
 });
